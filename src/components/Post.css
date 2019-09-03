@@ -1,0 +1,42 @@
+div.container-post {
+  width: 100%;
+  margin: 15px 0;
+  background: white;
+  border-radius: 5px;
+  padding: 20px; 
+}
+
+div.container-post .header-post {
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.container-post .header-post .dados {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+};
+
+
+
+div.container-post .header-post .dados strong {
+  font-size: 14;
+  color:  #4A4A4A; 
+}
+
+div.container-post .header-post .dados span {
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+div.container-post .corpo {
+  padding: 15px 0 25px 0;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+div.container-post .corpo p {
+  color: #3E3E3E;
+  font-size: 14;
+}
